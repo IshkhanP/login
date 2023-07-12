@@ -9,7 +9,32 @@ export function Login() {
           <div id="btn"> </div> <button className="toggle-btn"> Log In </button>
           <button className="toggle-btn"> Register </button>
         </div>
-        <form className="input_box">
+        <form id="login" className="input_box">
+          <input
+            type="text"
+            className="input-field"
+            placeholder="Username"
+            required
+          />
+          <input
+            type="password"
+            className="input-field"
+            placeholder="Password"
+            required
+          />
+          <input type="checkbox" className="checkbox" />
+          <label> Remember Password </label>
+          <button type="submit" className="submit">
+            Log in
+          </button>
+        </form>
+        <form id="register" className="input_box">
+          <input
+            type="text"
+            className="input-field"
+            placeholder="Username"
+            required
+          />
           <input
             type="text"
             className="input-field"
@@ -23,9 +48,9 @@ export function Login() {
             required
           />
           <input type="checkbox" className="checkbox" />
-          <label> Remember Password </label>
+          <label> I agree to the terms & conditions </label>
           <button type="submit" className="submit">
-            Log in
+            Register
           </button>
         </form>
       </div>
