@@ -2,22 +2,24 @@
   margin: 0;
   padding: 0;
 }
+
 .Login {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to bottom left, red, white 50%, black);
+  background: linear-gradient(to bottom left, red, white 50%, black);
   background-position: center;
   background-size: cover;
   position: absolute;
 }
 
-.login-forum {
+.login-form {
   width: 380px;
   height: 480px;
   position: relative;
   margin: 6% auto;
   background: #fff;
   padding: 5px;
+  overflow: hidden;
 }
 
 .button_box {
@@ -48,20 +50,11 @@
   transition: 0.5;
 }
 
-.login-forum {
-  width: 380px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-  padding: 5px;
-  background-color: white;
-}
-
-.input_group {
+.input-group {
   top: 180px;
   position: absolute;
   width: 280px;
-  transition: 0.5s;
+  transition: .5s;
 }
 
 .input-field {
@@ -74,7 +67,8 @@
   background: transparent;
 }
 
-.submit {
+.submit-btn {
+  width: 85%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
@@ -85,14 +79,19 @@
   border-radius: 30px;
 }
 
-.checkbox{
-  margin:30px 2px 30px 0;
+.checkbox {
+  margin: 30px 2px 30px 0;
 }
 
-#login{
-  left:50px;
+span{
+  bottom: 62px;
+  position: absolute;
 }
 
-#register{
-  left:450px;
+#login {
+  left: 50px;
+}
+
+#register {
+  left: 450px;
 }
