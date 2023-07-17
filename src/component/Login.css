@@ -54,7 +54,7 @@
   top: 180px;
   position: absolute;
   width: 280px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .input-field {
@@ -83,7 +83,7 @@
   margin: 30px 2px 30px 0;
 }
 
-span{
+span {
   bottom: 62px;
   position: absolute;
 }
@@ -94,4 +94,28 @@ span{
 
 #register {
   left: 450px;
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .login-form {
+    width: 80%;
+    height: auto;
+    margin: 20% auto;
+    padding: 10px;
+  }
+
+  .button_box {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .toggle-btn {
+    padding: 8px 24px;
+  }
+
+  .input-group {
+    top: 140px;
+    width: 80%;
+  }
 }
